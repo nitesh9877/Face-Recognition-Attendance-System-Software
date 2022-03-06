@@ -19,18 +19,19 @@ Proposed System :
 
  The system consists of a camera that captures the images of the students and sends it to the image enhancement module. After enhancement the image comes in the Face 45 Detection and Recognition modules and then the attendance is marked on the excel sheet.
 
- Advantages-
+Advantages - 
+
 • Reduces paperwork and saves time.
 • Eliminates duplicate data entries.
 • Easy attendance recording.
 • Increased privacy and security where student cannot present himself or his friend while they are not.Reduces manual process errors and provides a reliable attendance system
 
 Existing System :
- Every institute has its own method in this regard. Some are taking attendance
-manually using the old paper or file based approach and some have adopted methods
-of automatic attendance using some biometric techniques.
 
- Disadvanatages-
+ Every institute has its own method in this regard. Some are taking attendance manually using the old paper or file based approach and some have adopted methods of automatic attendance using some biometric techniques.
+
+ Disadvanatages -
+
  Attendance registers are prone to damage and being misplaces.
  It is very time consuming process.
  Inconsistency in data.
