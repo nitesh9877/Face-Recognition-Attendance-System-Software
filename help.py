@@ -8,8 +8,6 @@ from face_recognition import Face_Recognition
 from attendance import Attendance
 
 
-
-
 class Help:
     def __init__(self,root):
         self.root=root 
@@ -31,11 +29,6 @@ class Help:
 
         dev_label=Label(f_lbl,text="Email: nkldh1999@gmail.com",font=("times new roman",20,"bold"),fg="blue",bg="white")
         dev_label.place(x=550,y=220)
-
-
-
-
-
 
 
 if __name__ == "__main__":
