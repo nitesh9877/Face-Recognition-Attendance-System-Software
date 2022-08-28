@@ -242,19 +242,6 @@ class Attendance:
 
 
         
-        
-
-        
-
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     root=Tk()
     obj=Attendance(root)
