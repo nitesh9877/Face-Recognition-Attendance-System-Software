@@ -11,10 +11,6 @@ from developer import Developer
 from help import Help
 
 
-
-
-
-
 class Face_Recognition_System:
     def __init__(self,root):
         self.root=root 
@@ -204,30 +200,9 @@ class Face_Recognition_System:
     def help_data(self):
         self.new_window=Toplevel(self.root)
         self.app=Help(self.new_window)
-
-
-
-
-
-
-
-
-        
-
-
-        
-
-
-
-
-
-        
+      
 
 if __name__ == "__main__":
     root=Tk()
     obj=Face_Recognition_System(root)
     root.mainloop()
-
-
-
-
