@@ -4,16 +4,11 @@ from PIL import Image,ImageTk
 from tkinter import messagebox
 import mysql.connector
 
-
-
-
-
 class Face_Recognition:
     def __init__(self,root):
         self.root=root 
         self.root.geometry("1530x790+0+0")
         self.root.title("face recognition System")
-
 
         title_lbl=Label(self.root,text="FACE RECOGNITION",font=("times new roman",35,"bold"),bg="white",fg="green")
         title_lbl.place(x=0,y=0,width=1530,height=45)
@@ -37,17 +32,6 @@ class Face_Recognition:
         # button
         b1=Button(f_lbl,text="Face Recognition",cursor="hand2",font=("times new roman",18,"bold"),bg="darkgreen",fg="white")
         b1.place(x=365,y=620,width=200,height=40)
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
